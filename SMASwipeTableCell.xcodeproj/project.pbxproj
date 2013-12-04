@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA947098184EE68500AB5989 /* bg_opreat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA947092184EE68500AB5989 /* bg_opreat@2x.png */; };
+		EA947099184EE68500AB5989 /* icon_copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA947093184EE68500AB5989 /* icon_copy@2x.png */; };
+		EA94709A184EE68500AB5989 /* icon_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA947094184EE68500AB5989 /* icon_download@2x.png */; };
+		EA94709B184EE68500AB5989 /* icon_move@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA947095184EE68500AB5989 /* icon_move@2x.png */; };
+		EA94709C184EE68500AB5989 /* icon_rename@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA947096184EE68500AB5989 /* icon_rename@2x.png */; };
+		EA94709D184EE68500AB5989 /* icon_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA947097184EE68500AB5989 /* icon_share@2x.png */; };
+		EAA73377184D6BD2001F32F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA73376184D6BD2001F32F3 /* Foundation.framework */; };
+		EAA73379184D6BD2001F32F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA73378184D6BD2001F32F3 /* CoreGraphics.framework */; };
+		EAA7337B184D6BD2001F32F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA7337A184D6BD2001F32F3 /* UIKit.framework */; };
+		EAA73381184D6BD2001F32F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAA7337F184D6BD2001F32F3 /* InfoPlist.strings */; };
+		EAA73383184D6BD2001F32F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA73382184D6BD2001F32F3 /* main.m */; };
+		EAA73387184D6BD2001F32F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA73386184D6BD2001F32F3 /* AppDelegate.m */; };
+		EAA7338A184D6BD2001F32F3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA73388184D6BD2001F32F3 /* Main_iPhone.storyboard */; };
+		EAA7338D184D6BD2001F32F3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA7338B184D6BD2001F32F3 /* Main_iPad.storyboard */; };
+		EAA73390184D6BD2001F32F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA7338F184D6BD2001F32F3 /* ViewController.m */; };
+		EAA73392184D6BD2001F32F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA73391184D6BD2001F32F3 /* Images.xcassets */; };
+		EAA73399184D6BD2001F32F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA73398184D6BD2001F32F3 /* XCTest.framework */; };
+		EAA7339A184D6BD2001F32F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA73376184D6BD2001F32F3 /* Foundation.framework */; };
+		EAA7339B184D6BD2001F32F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA7337A184D6BD2001F32F3 /* UIKit.framework */; };
+		EAA733A3184D6BD2001F32F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAA733A1184D6BD2001F32F3 /* InfoPlist.strings */; };
+		EAA733A5184D6BD2001F32F3 /* SMASwipeTableCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA733A4184D6BD2001F32F3 /* SMASwipeTableCellTests.m */; };
+		EAA733B0184D6C65001F32F3 /* SMASwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA733AF184D6C65001F32F3 /* SMASwipeTableCell.m */; };
+		EAA733B3184D737F001F32F3 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA733B2184D737F001F32F3 /* SwipeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA7339C184D6BD2001F32F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA7336B184D6BD2001F32F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA73372184D6BD2001F32F3;
+			remoteInfo = SMASwipeTableCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA947092184EE68500AB5989 /* bg_opreat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_opreat@2x.png"; path = "Images/bg_opreat@2x.png"; sourceTree = "<group>"; };
+		EA947093184EE68500AB5989 /* icon_copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_copy@2x.png"; path = "Images/icon_copy@2x.png"; sourceTree = "<group>"; };
+		EA947094184EE68500AB5989 /* icon_download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_download@2x.png"; path = "Images/icon_download@2x.png"; sourceTree = "<group>"; };
+		EA947095184EE68500AB5989 /* icon_move@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_move@2x.png"; path = "Images/icon_move@2x.png"; sourceTree = "<group>"; };
+		EA947096184EE68500AB5989 /* icon_rename@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_rename@2x.png"; path = "Images/icon_rename@2x.png"; sourceTree = "<group>"; };
+		EA947097184EE68500AB5989 /* icon_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_share@2x.png"; path = "Images/icon_share@2x.png"; sourceTree = "<group>"; };
+		EAA73373184D6BD2001F32F3 /* SMASwipeTableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMASwipeTableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA73376184D6BD2001F32F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAA73378184D6BD2001F32F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAA7337A184D6BD2001F32F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAA7337E184D6BD2001F32F3 /* SMASwipeTableCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMASwipeTableCell-Info.plist"; sourceTree = "<group>"; };
+		EAA73380184D6BD2001F32F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA73382184D6BD2001F32F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAA73384184D6BD2001F32F3 /* SMASwipeTableCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMASwipeTableCell-Prefix.pch"; sourceTree = "<group>"; };
+		EAA73385184D6BD2001F32F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAA73386184D6BD2001F32F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAA73389184D6BD2001F32F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EAA7338C184D6BD2001F32F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EAA7338E184D6BD2001F32F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAA7338F184D6BD2001F32F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAA73391184D6BD2001F32F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAA73397184D6BD2001F32F3 /* SMASwipeTableCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMASwipeTableCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA73398184D6BD2001F32F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAA733A0184D6BD2001F32F3 /* SMASwipeTableCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMASwipeTableCellTests-Info.plist"; sourceTree = "<group>"; };
+		EAA733A2184D6BD2001F32F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA733A4184D6BD2001F32F3 /* SMASwipeTableCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMASwipeTableCellTests.m; sourceTree = "<group>"; };
+		EAA733AE184D6C65001F32F3 /* SMASwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMASwipeTableCell.h; sourceTree = "<group>"; };
+		EAA733AF184D6C65001F32F3 /* SMASwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMASwipeTableCell.m; sourceTree = "<group>"; };
+		EAA733B1184D737F001F32F3 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		EAA733B2184D737F001F32F3 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA73370184D6BD2001F32F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA73379184D6BD2001F32F3 /* CoreGraphics.framework in Frameworks */,
+				EAA7337B184D6BD2001F32F3 /* UIKit.framework in Frameworks */,
+				EAA73377184D6BD2001F32F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA73394184D6BD2001F32F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA73399184D6BD2001F32F3 /* XCTest.framework in Frameworks */,
+				EAA7339B184D6BD2001F32F3 /* UIKit.framework in Frameworks */,
+				EAA7339A184D6BD2001F32F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA947091184EE2BA00AB5989 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA947092184EE68500AB5989 /* bg_opreat@2x.png */,
+				EA947093184EE68500AB5989 /* icon_copy@2x.png */,
+				EA947094184EE68500AB5989 /* icon_download@2x.png */,
+				EA947095184EE68500AB5989 /* icon_move@2x.png */,
+				EA947096184EE68500AB5989 /* icon_rename@2x.png */,
+				EA947097184EE68500AB5989 /* icon_share@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EAA7336A184D6BD2001F32F3 = {
+			isa = PBXGroup;
+			children = (
+				EAA7337C184D6BD2001F32F3 /* SMASwipeTableCell */,
+				EAA7339E184D6BD2001F32F3 /* SMASwipeTableCellTests */,
+				EAA73375184D6BD2001F32F3 /* Frameworks */,
+				EAA73374184D6BD2001F32F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA73374184D6BD2001F32F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA73373184D6BD2001F32F3 /* SMASwipeTableCell.app */,
+				EAA73397184D6BD2001F32F3 /* SMASwipeTableCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA73375184D6BD2001F32F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAA73376184D6BD2001F32F3 /* Foundation.framework */,
+				EAA73378184D6BD2001F32F3 /* CoreGraphics.framework */,
+				EAA7337A184D6BD2001F32F3 /* UIKit.framework */,
+				EAA73398184D6BD2001F32F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAA7337C184D6BD2001F32F3 /* SMASwipeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA947091184EE2BA00AB5989 /* Images */,
+				EAA73385184D6BD2001F32F3 /* AppDelegate.h */,
+				EAA73386184D6BD2001F32F3 /* AppDelegate.m */,
+				EAA73388184D6BD2001F32F3 /* Main_iPhone.storyboard */,
+				EAA7338B184D6BD2001F32F3 /* Main_iPad.storyboard */,
+				EAA7338E184D6BD2001F32F3 /* ViewController.h */,
+				EAA7338F184D6BD2001F32F3 /* ViewController.m */,
+				EAA733B1184D737F001F32F3 /* SwipeViewController.h */,
+				EAA733B2184D737F001F32F3 /* SwipeViewController.m */,
+				EAA733AE184D6C65001F32F3 /* SMASwipeTableCell.h */,
+				EAA733AF184D6C65001F32F3 /* SMASwipeTableCell.m */,
+				EAA73391184D6BD2001F32F3 /* Images.xcassets */,
+				EAA7337D184D6BD2001F32F3 /* Supporting Files */,
+			);
+			path = SMASwipeTableCell;
+			sourceTree = "<group>";
+		};
+		EAA7337D184D6BD2001F32F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA7337E184D6BD2001F32F3 /* SMASwipeTableCell-Info.plist */,
+				EAA7337F184D6BD2001F32F3 /* InfoPlist.strings */,
+				EAA73382184D6BD2001F32F3 /* main.m */,
+				EAA73384184D6BD2001F32F3 /* SMASwipeTableCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAA7339E184D6BD2001F32F3 /* SMASwipeTableCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA733A4184D6BD2001F32F3 /* SMASwipeTableCellTests.m */,
+				EAA7339F184D6BD2001F32F3 /* Supporting Files */,
+			);
+			path = SMASwipeTableCellTests;
+			sourceTree = "<group>";
+		};
+		EAA7339F184D6BD2001F32F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA733A0184D6BD2001F32F3 /* SMASwipeTableCellTests-Info.plist */,
+				EAA733A1184D6BD2001F32F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA73372184D6BD2001F32F3 /* SMASwipeTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA733A8184D6BD2001F32F3 /* Build configuration list for PBXNativeTarget "SMASwipeTableCell" */;
+			buildPhases = (
+				EAA7336F184D6BD2001F32F3 /* Sources */,
+				EAA73370184D6BD2001F32F3 /* Frameworks */,
+				EAA73371184D6BD2001F32F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMASwipeTableCell;
+			productName = SMASwipeTableCell;
+			productReference = EAA73373184D6BD2001F32F3 /* SMASwipeTableCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA73396184D6BD2001F32F3 /* SMASwipeTableCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA733AB184D6BD2001F32F3 /* Build configuration list for PBXNativeTarget "SMASwipeTableCellTests" */;
+			buildPhases = (
+				EAA73393184D6BD2001F32F3 /* Sources */,
+				EAA73394184D6BD2001F32F3 /* Frameworks */,
+				EAA73395184D6BD2001F32F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA7339D184D6BD2001F32F3 /* PBXTargetDependency */,
+			);
+			name = SMASwipeTableCellTests;
+			productName = SMASwipeTableCellTests;
+			productReference = EAA73397184D6BD2001F32F3 /* SMASwipeTableCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA7336B184D6BD2001F32F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Dabao;
+				TargetAttributes = {
+					EAA73396184D6BD2001F32F3 = {
+						TestTargetID = EAA73372184D6BD2001F32F3;
+					};
+				};
+			};
+			buildConfigurationList = EAA7336E184D6BD2001F32F3 /* Build configuration list for PBXProject "SMASwipeTableCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA7336A184D6BD2001F32F3;
+			productRefGroup = EAA73374184D6BD2001F32F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA73372184D6BD2001F32F3 /* SMASwipeTableCell */,
+				EAA73396184D6BD2001F32F3 /* SMASwipeTableCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA73371184D6BD2001F32F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA947099184EE68500AB5989 /* icon_copy@2x.png in Resources */,
+				EA94709D184EE68500AB5989 /* icon_share@2x.png in Resources */,
+				EAA7338D184D6BD2001F32F3 /* Main_iPad.storyboard in Resources */,
+				EAA73392184D6BD2001F32F3 /* Images.xcassets in Resources */,
+				EAA7338A184D6BD2001F32F3 /* Main_iPhone.storyboard in Resources */,
+				EA94709B184EE68500AB5989 /* icon_move@2x.png in Resources */,
+				EAA73381184D6BD2001F32F3 /* InfoPlist.strings in Resources */,
+				EA947098184EE68500AB5989 /* bg_opreat@2x.png in Resources */,
+				EA94709C184EE68500AB5989 /* icon_rename@2x.png in Resources */,
+				EA94709A184EE68500AB5989 /* icon_download@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA73395184D6BD2001F32F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA733A3184D6BD2001F32F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA7336F184D6BD2001F32F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA73390184D6BD2001F32F3 /* ViewController.m in Sources */,
+				EAA73387184D6BD2001F32F3 /* AppDelegate.m in Sources */,
+				EAA733B0184D6C65001F32F3 /* SMASwipeTableCell.m in Sources */,
+				EAA733B3184D737F001F32F3 /* SwipeViewController.m in Sources */,
+				EAA73383184D6BD2001F32F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA73393184D6BD2001F32F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA733A5184D6BD2001F32F3 /* SMASwipeTableCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA7339D184D6BD2001F32F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA73372184D6BD2001F32F3 /* SMASwipeTableCell */;
+			targetProxy = EAA7339C184D6BD2001F32F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAA7337F184D6BD2001F32F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA73380184D6BD2001F32F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAA73388184D6BD2001F32F3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA73389184D6BD2001F32F3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA7338B184D6BD2001F32F3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA7338C184D6BD2001F32F3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA733A1184D6BD2001F32F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA733A2184D6BD2001F32F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA733A6184D6BD2001F32F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA733A7184D6BD2001F32F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA733A9184D6BD2001F32F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tiandabao/Desktop/TDBProgect/SMASwipeTableCell,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMASwipeTableCell/SMASwipeTableCell-Prefix.pch";
+				INFOPLIST_FILE = "SMASwipeTableCell/SMASwipeTableCell-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAA733AA184D6BD2001F32F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tiandabao/Desktop/TDBProgect/SMASwipeTableCell,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMASwipeTableCell/SMASwipeTableCell-Prefix.pch";
+				INFOPLIST_FILE = "SMASwipeTableCell/SMASwipeTableCell-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAA733AC184D6BD2001F32F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SMASwipeTableCell.app/SMASwipeTableCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMASwipeTableCell/SMASwipeTableCell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SMASwipeTableCellTests/SMASwipeTableCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAA733AD184D6BD2001F32F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SMASwipeTableCell.app/SMASwipeTableCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMASwipeTableCell/SMASwipeTableCell-Prefix.pch";
+				INFOPLIST_FILE = "SMASwipeTableCellTests/SMASwipeTableCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA7336E184D6BD2001F32F3 /* Build configuration list for PBXProject "SMASwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA733A6184D6BD2001F32F3 /* Debug */,
+				EAA733A7184D6BD2001F32F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA733A8184D6BD2001F32F3 /* Build configuration list for PBXNativeTarget "SMASwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA733A9184D6BD2001F32F3 /* Debug */,
+				EAA733AA184D6BD2001F32F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA733AB184D6BD2001F32F3 /* Build configuration list for PBXNativeTarget "SMASwipeTableCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA733AC184D6BD2001F32F3 /* Debug */,
+				EAA733AD184D6BD2001F32F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA7336B184D6BD2001F32F3 /* Project object */;
+}
